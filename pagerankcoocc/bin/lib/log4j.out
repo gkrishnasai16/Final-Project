@@ -1,0 +1,20 @@
+0    [main] DEBUG de.sempir.main.ApplicationImpl  - initialize application instance
+23   [main] ERROR de.sempir.main.ApplicationImpl  - exception caught while loading properties
+java.io.FileNotFoundException: settings.ini (Das System kann die angegebene Datei nicht finden)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at de.sempir.main.ApplicationImpl.<init>(ApplicationImpl.java:330)
+	at de.sempir.main.ApplicationImpl.main(ApplicationImpl.java:87)
+25   [main] DEBUG de.sempir.main.ApplicationImpl  - starting with gui
+29   [main] DEBUG de.sempir.fileobserver.SempirFileObserverImpl  - initialize fileobserver instance
+31   [main] DEBUG de.sempir.fileobserver.SempirFileObserverImpl  - fileobserver creates connection to db
+2702 [main] DEBUG de.sempir.p2p.SempirPeerImpl  - initializing peerimpl
+3168 [main] INFO  de.sempir.text.Database  - initializing database object
+0    [main] DEBUG de.sempir.main.ApplicationImpl  - initialize application instance
+3    [main] DEBUG de.sempir.main.ApplicationImpl  - starting with gui
+4    [main] DEBUG de.sempir.fileobserver.SempirFileObserverImpl  - initialize fileobserver instance
+5    [main] DEBUG de.sempir.fileobserver.SempirFileObserverImpl  - fileobserver creates connection to db
+498  [main] DEBUG de.sempir.fileobserver.SempirFileObserverImpl  - ignoring sql exception
+502  [main] DEBUG de.sempir.p2p.SempirPeerImpl  - initializing peerimpl
+523  [main] INFO  de.sempir.text.Database  - initializing database object
